@@ -1,1 +1,49 @@
-
+{
+    "default_model": "realism_engine_sdxl.safetensors",
+    "default_refiner": "None",
+    "default_refiner_switch": 0.5,
+    "default_loras": [
+        [
+            "sd_xl_offset_example-lora_1.0.safetensors",
+            0.1
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ],
+        [
+            "None",
+            1.0
+        ]
+    ],
+    "default_cfg_scale": 8.0,
+    "default_sample_sharpness": 3.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_prompt": "",
+    "default_prompt_negative": "",
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Enhance",
+        "Fooocus Sharp"
+    ],
+    "default_aspect_ratio": "869*1152",
+    "checkpoint_downloads": {
+        "realism_engine_sdxl.safetensors": "https://civitai.com/api/download/models/293240?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+        "NSFWbetterThanWords_v30.safetensors": "https://civitai.com/api/download/models/233092?type=Model&format=SafeTensor&size=full&fp=fp16"
+    },
+    "embeddings_downloads": {},
+    "lora_downloads": {
+        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+    },
+    "previous_default_models": []
+}
